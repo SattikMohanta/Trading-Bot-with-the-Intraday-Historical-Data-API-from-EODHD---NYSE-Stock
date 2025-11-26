@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 # 1. Configuration
-API_KEY = '67d6200c2f87e5.90891934'   # Replace with your actual API Key
+API_KEY = '----------------------------'   # Replace with your actual API Key
 symbol = 'NVDA.US'               
 interval = '1m'                  # 1-minute intervals
 from_date_str = '01-01-2025'     # MM-DD-Y (yyyy)
@@ -272,11 +272,11 @@ plt.show()
 symbol = "NVDA.US"
 interval = "10m"
 range_days = "90d"
-api_key = "67d6200c2f87e5.90891934"   # Replace with your actual API Key
+api_key = "________________________"   # Replace with your actual API Key
 from_date_str = '01-01-2025'     # MM-DD-Y (yyyy)
 to_date_str   = '31-03-2025'     # MM-DD-Y (yyyy)
 
-url = f"https://eodhistoricaldata.com/api/eod/NVDA.US?api_token=67d6200c2f87e5.90891934&from=01-01-2025&to=31-03-2025&fmt=json"
+url = f"https://eodhistoricaldata.com/api/eod/NVDA.US?api_token=________________________________&from=01-01-2025&to=31-03-2025&fmt=json"
 
 # Fetch historical/eod data
 response = requests.get(url)
@@ -351,11 +351,11 @@ fig.show()
 symbol = "NVDA.US"
 interval = "15m"
 range_days = "90d"
-api_key = "67d6200c2f87e5.90891934"   # Replace with your actual API Key
+api_key = "__________________"   # Replace with your actual API Key
 from_date_str = '01-01-2025'     # MM-DD-Y (yyyy)
 to_date_str   = '31-03-2025'     # MM-DD-Y (yyyy)
 
-url = f"https://eodhistoricaldata.com/api/eod/NVDA.US?api_token=67d6200c2f87e5.90891934&from=01-01-2025&to=31-03-2025&fmt=json"
+url = f"https://eodhistoricaldata.com/api/eod/NVDA.US?api_token=________________________________&from=01-01-2025&to=31-03-2025&fmt=json"
 # Fetch data
 response = requests.get(url)
 data = response.json()
@@ -400,17 +400,17 @@ fig.show()
 symbol = "NVDA.US"
 interval = "30m"
 range_days = "90d"
-api_key = "67d6200c2f87e5.90891934"   # Replace with your actual API Key
+api_key = "________________________________"   # Replace with your actual API Key
 from_date_str = '01-01-2025'     # MM-DD-Y (yyyy)
 to_date_str   = '31-03-2025'     # MM-DD-Y (yyyy)
 
-url = f"https://eodhd.com/api/eod/NVDA.US?interval=5m&range=1d&api_token=67d6200c2f87e5.90891934&fmt=json"
+url = f"https://eodhd.com/api/eod/NVDA.US?interval=5m&range=1d&api_token=________________________________&fmt=json"
 # Fetch data
 response = requests.get(url)
 data = response.json()
 
 # === API REQUEST ===
-url = f"https://eodhistoricaldata.com/api/eod/NVDA.US?api_token=67d6200c2f87e5.90891934&from=01-01-2025&to=31-03-2025&fmt=json"
+url = f"https://eodhistoricaldata.com/api/eod/NVDA.US?api_token=________________________________&from=01-01-2025&to=31-03-2025&fmt=json"
 response = requests.get(url)
 
 # === ERROR HANDLING ===
